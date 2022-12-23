@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Đăng ký</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="=container">
+            <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading text-center">  
+                <h2>Tạo Tài Khoản Mới </h2>            
+            </div>
+            <div class="panel panel-body">  
+               <form>
+                <div class=" form-group">
+                    <label for="first Name">First Name</label>
+                    <input type="text" class="form-control" placeholder="Họ của bạn" id="firstName" required name="">
+                </div>
+                <div class=" form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Tên của bạn" id="lastName" required name="">
+                </div>
+                <div class=" form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="Email của bạn" id="email" required name="">
+                </div>
+                <div class=" form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="Password của bạn" id="password" required name="">
+                </div>  
+                <div class=" form-group">
+                    <label for="nlpassword">Nhập lại Password</label>
+                    <input type="password" class="form-control" placeholder="Nhập lại password của bạn" id="nlpassword" required name="">
+                </div>                                          
+                <div class="form-group">
+					<label for="email">Giới tính</label>
+                    <div>                   
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" required name="" id="inlineRadio1" value="option1"> Nam
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" required name="" id="inlineRadio2" value="option2"> Nữ
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" required name="" id="inlineRadio3" value="option3"> Khác
+                          </label>
+                    </div>	
+                    <div class=" form-group">
+                        <label for="phoneNumber">Phone number</label>
+                        <input type="text" class="form-control" placeholder="Nhập số điện thoại của bạn" id="phoneNumber" required name="">
+                    </div>   				
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" required name=""> Tôi đồng ý điều khoản sử dụng
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn btn-block">Đăng ký</button>
+                      <div class="panel panel-footer text-right">   
+                        <small>Bản quyền thuộc bởi &copy; Lê Minh Toàn.</small>         
+                    </div>
+                </div> 
+        </form>                                    
+    </body>
+</html>
